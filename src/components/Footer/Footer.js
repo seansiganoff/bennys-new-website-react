@@ -28,7 +28,7 @@ const Footer = () => {
                     </div>
             </div>
             <div className="copyright">
-            MOBILE DENT AND SCRATCH REPAIR LLC.
+            BENNYS MOBILE AUTO BODY LLC.
         </div>
     </>
   )
