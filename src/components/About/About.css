@@ -1,0 +1,83 @@
+
+
+
+
+
+
+
+
+.about-container {
+    background-color: rgb(247, 247, 247);
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.about-banner {
+    width: 80%;
+}
+
+.about-banner button {
+    border: none;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    margin: 0 auto;
+    width: 100%;
+    font-size: xxx-large;
+    word-break: keep-all;
+    text-align: left;
+    border-radius: 10px;
+    padding: 1rem 0 3px 15px;
+    background-image: linear-gradient(to right, rgba(211, 11, 44, 0.9), rgb(45, 45, 45));
+    transition: all 0.2s ease-in;
+}
+
+.about-banner button:hover {
+    box-shadow: 0 0 40px 2px rgba(0, 0, 0, 0.304);
+    scale: 1.01;
+}
+
+
+
+.about-text-div {
+    width: 80%;
+    margin: 5px auto;
+    padding: 3rem 7px 3rem 7px;
+    transition: all 3s ease-in-out;
+    animation: 3s;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+}
+.about-text-div p {
+    padding: 0 7px;
+    font-size: large;
+}
+
+.about-close-btn {
+    padding: 1rem 2rem;
+    border-radius: 30px;
+}
+
+
+@media only screen and (max-width: 1000px) {
+    .about-text-div, .about-banner {
+        width: 100%;
+    }
+    .about-banner button {
+        font-size: xx-large;
+    }
+}
+
+
+@media only screen and (max-width: 700px) {
+    .about-text-div {
+        padding: 3rem 0px 3rem 0px;
+    }
+    .about-banner button {
+        font-size: x-large;
+    }
+}
+

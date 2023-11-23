@@ -1,0 +1,10 @@
+
+
+.dropdown-container {
+    width: 100%;
+    background-color: rgb(246, 246, 246);
+    padding: 2rem 10px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}

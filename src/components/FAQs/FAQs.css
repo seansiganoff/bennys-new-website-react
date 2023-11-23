@@ -1,0 +1,157 @@
+
+
+
+.faqs-container {
+    background-color: rgb(247, 247, 247);
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.faq-banner {
+    width: 80%;
+}
+
+.faq-banner button {
+    border: none;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    margin: 0 auto;
+    width: 100%;
+    font-size: xxx-large;
+    word-break: keep-all;
+    text-align: left;
+    border-radius: 10px;
+    padding: 1rem 0 3px 15px;
+    background-image: linear-gradient(to right, rgba(211, 11, 11, 0.9), rgb(45, 45, 45));
+    transition: all 0.2s ease-in;
+}
+
+.faq-banner button:hover {
+    box-shadow: 0 0 40px 2px rgba(0, 0, 0, 0.304);
+     scale: 1.01;
+ }
+
+
+
+
+
+.faq-cards-div {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+
+    
+}
+.question-cards h3, .question-cards-bottom h3 {
+    margin: 0;
+    padding-bottom: 10px;
+    font-size: x-large;
+    font-weight: 600;
+    word-break: keep-all;
+    text-align: left;
+    font-weight: 700;
+}
+
+.faq {
+    margin: 0 auto;
+    display: block;
+    gap: 20px;
+    padding: 0 0 0 0;
+    width: 80%;
+}
+
+.question-cards {
+    margin: 0 ;
+    text-align: center;
+    /* background-image: linear-gradient(to bottom, rgba(11, 181, 211, 0.397), rgba(255, 255, 255, 0.486)); */
+    border-radius: 15px;
+    padding: 1rem 15px;
+    
+    /* box-shadow: 0 0 30px 1px rgba(0, 0, 0, 0.253); */
+}
+
+.question-cards-bottom {
+    margin: 20px 0 0 0;
+    text-align: center;
+    background-image: linear-gradient(to bottom, rgba(11, 181, 211, 0.397), rgba(255, 255, 255, 0.486));
+    font-size: large;
+    border-radius: 15px;
+    padding: 1rem 15px;
+    box-shadow: 0 0 30px 1px rgba(0, 0, 0, 0.253);
+    text-align: left;
+}
+
+.question-cards p {
+    text-align: left;
+    font-size: large;
+    padding-top: 1rem;
+}
+
+.question-cards button {
+    border-radius: 25px;
+    padding: 0.5rem 1rem;
+    transition: all 0.2s ease-in;
+    font-weight: 700;
+}
+
+.question-cards button:hover {
+    background-color: rgb(153, 255, 0);
+    box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.253)
+}
+
+.question-cards span {
+    color: red;
+}
+
+.faq-close-btn {
+    padding: 1rem 2rem;
+    border-radius: 30px;
+}
+
+
+
+
+@media only screen and (max-width: 1000px) {
+    
+    .question-cards {
+        width: 100%;
+        margin-bottom: 20px;
+        padding: 20px;
+    }
+    .faq-banner, .faq {
+        width: 100%;
+    }
+    .faq-cards-div {
+        display: block;
+    }
+    .faq-banner button {
+        font-size: xx-large;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .faq-banner {
+        font-size: xx-large;
+    }
+    .faq-banner button {
+        font-size: x-large;
+    }
+}
+
+
+@media only screen and (max-width: 500px) {
+    
+    
+    .question-cards {
+        width: 100%;
+        margin-bottom: 20px;
+        padding: 20px;
+    }
+    
+}
+
+

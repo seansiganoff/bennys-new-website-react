@@ -1,0 +1,38 @@
+.guarantee-container {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 15vh 5px 3rem 5px;
+}
+
+.guarantee-container h1 {
+    color: green;
+    margin: 2rem 0;
+    
+}
+
+.guarantee-container p {
+    font-size: large;
+}
+
+
+@media only screen and (max-width: 1000px) {
+    .guarantee-container {
+        width: 100%;
+        padding: 15vh 10px 3rem 10px;
+    }
+    
+}
+
+@media only screen and (max-width: 500px) {
+    .guarantee-container h1 {
+        font-size: x-large;
+    }
+    
+    .guarantee-container p {
+        font-size: medium;
+    }
+}
+
+
+
