@@ -61,7 +61,7 @@ const About = () => {
           Using the finest materials and proven techniques, we ensure that our repairs are not only visually appealing but also durable and reliable.
           </p>
             <br />
-            <button className='about-close-btn' onClick={() => setIsAbout(!isAbout)}>Close About Section</button>
+            <button className='about-close-btn' onClick={() => setIsAbout(!isAbout)}>Close</button>
           </div>         
       </motion.div>
       

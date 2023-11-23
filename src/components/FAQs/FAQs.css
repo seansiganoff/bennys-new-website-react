@@ -137,8 +137,11 @@
     .faq-banner {
         font-size: xx-large;
     }
+    .about-banner button {
+        padding-left: 10px;
+    }
     .faq-banner button {
-        font-size: x-large;
+        padding: 1rem 0 3px 8px;
     }
 }
 

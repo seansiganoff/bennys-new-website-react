@@ -75,7 +75,7 @@ const FAQs = () => {
                             </div>  */}
                         </div>
                         <br />
-                        <button className='faq-close-btn' onClick={() => setIsFAQ(!isFAQ)}>Close FAQ's Section</button>
+                        <button className='faq-close-btn' onClick={() => setIsFAQ(!isFAQ)}>Close</button>
                     </div>
                 </motion.div>
             </div>

@@ -112,7 +112,7 @@ const Services = () => {
                 </li>
                 <li>
                   <br />
-                <button className='services-close-btn' onClick={() => setInServices(!isServices)}>Close Services Section</button>
+                <button className='services-close-btn' onClick={() => setInServices(!isServices)}>Close</button>
                 </li>
             </ul>
             
