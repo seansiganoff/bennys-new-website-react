@@ -73,19 +73,31 @@ a:visited {
 
 @media only screen and (max-width: 700px) {
     .nav-container {
-        font-size: small;
         display: block;
     }
     .nav-links {
         justify-content: space-evenly;
         margin: 0;
         padding: 8px 0;
-        font-size: 15px;
+        font-size: 17px;
     }
     .nav-number {
         margin: 0;
-        padding: 15px;
     }
 
+
+}
+
+@media only screen and (max-width: 350px) {
+    
+    .nav-number {
+        font-size: small;
+    }
+    .nav-container {
+        height: 11vh;
+    }
+    .nav-links {
+        font-size: 15px;
+    }
 
 }
