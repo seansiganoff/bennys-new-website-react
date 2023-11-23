@@ -45,7 +45,7 @@ const FAQs = () => {
                             <div className="question-cards">
                                 {/* <h3>How Does It Work?</h3> */}
                                 <p>
-                                    <b>Step 1.</b> Send us a picture of the damage via text message.<br /><br />
+                                    <b>Step 1.</b> Send us a picture of the damaged area's on your vehicle via text message.<br /><br />
                                     <b>Step 2.</b> We will review the picture's and send you an estimate. <br /><br />
                                     <b>Step 3.</b> If you want to proceed with the repairs, we will schedule a date and time that works for you and do the repairs at your place of choice (Home or office).<br />
                                     Payment is not required until the work is complete. Once the work is complete, if you are not satisfied with the repairs
