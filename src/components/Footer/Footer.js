@@ -11,8 +11,8 @@ const Footer = () => {
                             <div className="contact-container">
                                 <div className="desktop-footer">
                                     <ul> Call or text for a free estimate.
-                                        <li>Call: <b><a href="sms:561-573-5887">561-573-5887</a></b></li>
-                                        <li>Text: <b><a href="tel:561-573-5887">561-573-5887</a></b></li>
+                                        <li>Text: <b><a href="sms:561-573-5887">561-573-5887</a></b></li>
+                                        <li>Call: <b><a href="tel:561-573-5887">561-573-5887</a></b></li>
                                         
                                 
                                     </ul>
