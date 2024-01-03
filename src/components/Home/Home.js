@@ -19,11 +19,11 @@ const Home = () => {
         
         <div className='logo-div'>
         
-            <img className="company-logo" src={require("../../images//bennys-new-company-logo.png")} alt='Company Logo'/>
+            <img className="company-logo" src={require("../../images//bennys-new-company-logo2.png")} alt='Company Logo'/>
             <p>
-            <b>Why Go To A Body Shop? LET THE BODY SHOP COME TO YOU!!!</b><br />
+            <b>WE COME TO YOU!</b><br />
             </p>
-            <div className="locations">Serving Boca Raton, Delray Beach and Boynton Beach.</div>
+            <div className="locations"><b>Serving:</b> Boca Raton, Delray Beach, Boynton Beach.</div>
             {/* This is for the vehicle icons that. Keep this removed for bennys website */}
             {/* <div className="vehicle-icons">
                 <div className="vehicle-icons-inner-div-bottom">

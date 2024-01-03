@@ -61,7 +61,7 @@
     text-align: left;
     border-radius: 10px;
     padding: 1rem 15px 3px 15px;
-    background-image: linear-gradient(to right, rgba(211, 11, 11, 0.9), rgb(45, 45, 45));
+    background-image: linear-gradient(to right, rgba(1, 9, 121, 0.9), rgb(163, 205, 253));
     transition: all 0.2s ease-in;
 }
 
@@ -84,6 +84,7 @@ ul {
 .services li {
     font-size: large;
     padding-bottom: 2rem;
+    
 }
 
 .services-text-div {
