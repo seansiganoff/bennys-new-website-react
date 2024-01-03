@@ -21,8 +21,7 @@ const Footer = () => {
                         </div>
                         <div className="contact-us">
                             <h3>HOURS</h3>
-                            <p>Monday - Friday: 9AM - 9PM. <br />
-                            Saturday: 9AM - 9PM.<br />
+                            <p>Monday - Saturday: 9AM - 9PM. <br />
                             Sunday: 2pm - 5PM.</p>
                         </div>
                     </div>
