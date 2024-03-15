@@ -23,7 +23,7 @@ const Home = () => {
             <p>
             <b>Dent And Scratch Repair Done At Your Home Or Office.</b><br />
             </p>
-            <div className="locations"><b>Serving:</b> Boca Raton, Delray Beach, Boynton Beach.</div>
+            <div className="locations"><b>Serving:</b> Plano, Mckinney, Frisko, Allen, Richardson, The Colony and Highland Park Texas. </div>
             {/* This is for the vehicle icons that. Keep this removed for bennys website */}
             {/* <div className="vehicle-icons">
                 <div className="vehicle-icons-inner-div-bottom">

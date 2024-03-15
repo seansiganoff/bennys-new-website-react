@@ -47,7 +47,7 @@ const About = () => {
               Dont wait another minute, contact us now for a free estimate and experience the convenience of our mobile auto body service. 
             </p> */}
             <p>
-            We have over 20 years of experience in the industry and have been serving Palm Beach County for over 10 years!
+            We have over 20 years of experience in the industry and have been serving Texas for over 10 years!
           
           <br /><br />
           <b>Our Mobile Service Advantage: </b>
