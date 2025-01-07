@@ -1,6 +1,5 @@
 import React from 'react';
 import './QuickQuote.css';
-import { Link } from 'react-router-dom';
 
 const QuickQuote = () => {
   return (
