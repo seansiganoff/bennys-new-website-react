@@ -79,19 +79,7 @@ const Nav = () => {
                         }
                     }}
                   >HOME</Link></motion.li>  
-                  {/* <motion.li><Link onClick={closeMenu} to={'/our-guarantee'}
-                    initial={{y:80,opacity:0}}
-                    animate={{y:0, opacity:1}}
-                    transition={{delay: 0}}
-                    exit={{
-                      opacity:0,
-                      y:90,
-                        transition:{
-                          ease:"easeInOut",
-                          delay:0
-                        }
-                    }}
-                  >OUR GUARANTEE</Link></motion.li>   */}
+                  
                   
                     
 
