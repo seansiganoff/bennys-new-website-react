@@ -7,37 +7,33 @@
 
 
 .about-container {
-    background-color: rgb(247, 247, 247);
     width: 100%;
     flex-direction: column;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 10px 0;
+    padding: 3rem 0;
 }
 
 .about-banner {
     width: 80%;
 }
 
-.about-banner button {
+.about-heading {
     border: none;
     font-weight: 600;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     margin: 0 auto;
-    width: 100%;
-    font-size: xxx-large;
     word-break: keep-all;
-    text-align: left;
-    border-radius: 10px;
-    padding: 1rem 0 3px 15px;
-    background-image: linear-gradient(to right, rgba(1, 10, 140, 0.9), rgba(40, 52, 218, 0.9), rgb(97, 171, 255));
+    text-align: center;
+    padding: 1rem 0 3px 0;
     transition: all 0.2s ease-in;
-}
-
-.about-banner button:hover {
-    box-shadow: 0 0 40px 2px rgba(0, 0, 0, 0.304);
-    scale: 1.01;
+    border-top: 2px solid rgb(236, 236, 236);
+    width: 100%;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.555), rgba(255, 238, 0, 0.242), rgba(255, 255, 255, 0.555));
+    font-size: 7VW;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 10vw;
 }
 
 
@@ -64,20 +60,28 @@
 
 @media only screen and (max-width: 1000px) {
     .about-text-div, .about-banner {
-        width: 100%;
+        width: 94%;
+    }
+    .about-text-div {
+        padding: 1rem 0px 0 0px;
     }
     .about-banner button {
         font-size: xx-large;
     }
+   
 }
 
 
 @media only screen and (max-width: 700px) {
-    .about-text-div {
-        padding: 3rem 0px 3rem 0px;
-    }
     .about-banner button {
         padding: 1rem 0 3px 8px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    
+    .about-text-div p {
+        font-size: medium;
     }
 }
 

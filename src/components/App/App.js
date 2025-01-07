@@ -1,10 +1,10 @@
 import { Route, Routes } from 'react-router-dom';
 import './App.css'
 import Home from '../Home/Home';
-import Nav from '../Nav/Nav';
-import Guarantee from '../Guarantee/Guarantee';
+import Nav from '../Nav/nav.js';
 import Footer from '../Footer/Footer';
 import Gallery from '../Gallery/Gallery';
+import QuickQuote from '../QuickQuote/QuickQuote.js';
 
 function App() {
   return (
@@ -13,8 +13,8 @@ function App() {
       <Nav />
       <Routes>
         <Route path='/' element={<Home />} />
-        <Route path='/pictures-and-videos' element={<Gallery />} />
-        <Route path='/our-guarantee' element={<Guarantee />} />
+        <Route path='/gallery' element={<Gallery />} />
+        <Route path='/get-an-estimate' element={<QuickQuote />} />
       </Routes>
       <Footer />
       </>

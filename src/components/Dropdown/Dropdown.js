@@ -10,9 +10,10 @@ const Dropdown = () => {
 
   return (
     <div className='dropdown-container'>
+        {<FAQs />}
         {<About />}
         {<Services />}
-        {<FAQs />}
+        
     </div>
   )
 }
