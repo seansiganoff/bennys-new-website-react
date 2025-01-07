@@ -1,7 +1,7 @@
 import { Route, Routes } from 'react-router-dom';
 import './App.css'
 import Home from '../Home/Home';
-import Nav from '../Nav/nav.js';
+import Nav from '../Nav/Nav.js';
 import Footer from '../Footer/Footer';
 import Gallery from '../Gallery/Gallery';
 import QuickQuote from '../QuickQuote/QuickQuote.js';

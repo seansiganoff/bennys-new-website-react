@@ -6,9 +6,6 @@ import {AnimatePresence, motion} from 'framer-motion';
 
 
 
-
-
-
 const Nav = () => {
 
   const [open, setOpen] = useState(false);
