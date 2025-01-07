@@ -32,10 +32,6 @@ const Nav = () => {
   }
 
 
-
-
-
-
   return (
     
   <div>
