@@ -1,6 +1,5 @@
 import React from 'react'
 import './Home.css';
-import FAQs from '../FAQs/FAQs';
 import Services from '../Services/Services';
 import About from '../About/About';
 import Guarantee from '../Guarantee/Guarantee';
@@ -17,7 +16,6 @@ const Home = () => {
             <div className="locations">Serving: Plano, Frisco, Lewisville, Allen, Addison, The Colony, Carrollton and Mckinney.</div>
         </div>
         {<About />}
-        {/* {<FAQs />} */}
         {<Services />}
         {<Guarantee />}
     </div>
