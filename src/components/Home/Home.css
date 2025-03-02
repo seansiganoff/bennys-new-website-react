@@ -113,8 +113,8 @@
 
 @media only screen and (max-width: 600px) {
     .reviews-div button {
-        font-size: small;
-        padding: 10px;
+        font-size: medium;
+        padding: 20px 30px;
     }
     .reviews-div button p {
         font-size: xx-small;
