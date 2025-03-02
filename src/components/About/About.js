@@ -10,8 +10,7 @@ const About = () => {
         <div>
           <div className='about-text-div'>
             <p>
-                  We have over 20 years of experience in the industry and have been serving Dallas Texas for over 5 years!
-                <br /><br />
+                  
                 <b>Our Mobile Service Advantage: </b>
                 With our mobile dent and scratch repair service, there's no need to take time out of your busy schedule to visit a body shop. 
                 Our skilled technicians will come to your home or place of work, and get the repair done the same day, in just a few hours!

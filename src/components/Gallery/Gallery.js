@@ -14,7 +14,12 @@ const Gallery = () => {
      <br />
      <div className='gallery-dents'>
         <div className="gallery-video-wrapper">
-
+              <video controls poster={require('../../images/audi-screenshot.png')}>
+                <source className="gallery-video" src={require('../../videos/audi-r8.mp4')} type="video/mp4" />
+              </video>
+              <video controls poster={require('../../images/2021-red-corvette-screenshot.png')}>
+                <source className="gallery-video" src={require('../../videos/2021 red corvette.mp4')} type="video/mp4" />
+              </video>
               <video controls poster={require('../../images/acura-screenshot.png')}>
                 <source className="gallery-video" src={require('../../videos/acura-mdx-front-fender-and-bumper.mp4')} type="video/mp4" />
               </video>
@@ -28,9 +33,7 @@ const Gallery = () => {
                 <source className="gallery-video" src={require('../../videos/mercedes-ml.mp4')} type="video/mp4" />
               </video>
               
-              <video controls poster={require('../../images/mazerati-screenshot.png')}>
-                <source className="gallery-video" src={require('../../videos/My Movie 5.mp4')} type="video/mp4" />
-              </video>
+              
               
               <video controls poster={require('../../images/gtc-screenshot.png')}>
                 <source className="gallery-video" src={require('../../videos/My Movie 7.mp4')} type="video/mp4" />

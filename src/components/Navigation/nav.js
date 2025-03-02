@@ -74,6 +74,19 @@ const Nav = () => {
                           delay:0
                         }
                     }}
+                  >GOOGLE REVIEWS</Link></motion.li>  
+                  <motion.li><Link onClick={closeMenu} to={'https://g.co/kgs/cWBZQGr'}
+                    initial={{y:80,opacity:0}}
+                    animate={{y:0, opacity:1}}
+                    transition={{delay: 0}}
+                    exit={{
+                      opacity:0,
+                      y:90,
+                        transition:{
+                          ease:"easeInOut",
+                          delay:0
+                        }
+                    }}
                   >HOME</Link></motion.li>  
                   
                   

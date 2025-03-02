@@ -34,8 +34,8 @@ const Services = () => {
                   <b>Time:</b> 2 - 4 Hours<br />
                   Example of the scratch repair process.
                   <div className="services-video-wrapper">
-                      <video controls poster={require('../../images/mazerati-screenshot.png')}>
-                      <source className="services-video" src={require('../../videos/My Movie 5.mp4')} type="video/mp4" />
+                      <video controls poster={require('../../images/2021-red-corvette-screenshot.png')}>
+                      <source className="services-video" src={require('../../videos/2021 red corvette.mp4')} type="video/mp4" />
                       </video>
                   </div>
                   <hr />
