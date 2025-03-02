@@ -83,9 +83,9 @@
     padding: 15px 20px;
     border-radius: 30px;
     background-color: rgb(246, 36, 36);
-    font-size: xx-large;
+    font-size: large;
     color: rgb(255, 255, 255);
-    font-family: fantasy;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     border: none;
 }
 
@@ -113,7 +113,7 @@
 
 @media only screen and (max-width: 600px) {
     .reviews-div button {
-        font-size: medium;
+        font-size: small;
         padding: 10px;
     }
     .reviews-div button p {
