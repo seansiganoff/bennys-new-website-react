@@ -74,7 +74,7 @@ const Nav = () => {
                           delay:0
                         }
                     }}
-                  >GOOGLE REVIEWS</Link></motion.li>  
+                  >HOME</Link></motion.li>  
                   <motion.li><Link onClick={closeMenu} to={'https://g.co/kgs/cWBZQGr'}
                     initial={{y:80,opacity:0}}
                     animate={{y:0, opacity:1}}
@@ -87,7 +87,7 @@ const Nav = () => {
                           delay:0
                         }
                     }}
-                  >HOME</Link></motion.li>  
+                  >GOOGLE REVIEWS</Link></motion.li>  
                   
                   
                     

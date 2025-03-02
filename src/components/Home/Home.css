@@ -111,3 +111,14 @@
     }
 }
 
+@media only screen and (max-width: 600px) {
+    .reviews-div button {
+        font-size: large;
+    }
+    .reviews-div button p {
+        font-size: xx-small;
+    }
+
+}
+
+
