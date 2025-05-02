@@ -11,7 +11,7 @@ const QuickQuote = () => {
               <br />
               <br />
               <p>
-             <b> STEP 1. </b>  Send a few pictures via text, of the damage you need repaired to <a href="sms:469-974-2446">469-974-2446.</a> Also, please include the year make and model of the vehicle.
+             <b> STEP 1. </b>  Send a few pictures via text, of the damage you need repaired to <a href="sms:469-929-3118">469-929-3118.</a> Also, please include the year make and model of the vehicle.
               <br /><br />
               <b> STEP 2. </b>  Wait for us to send you a quote.
 
