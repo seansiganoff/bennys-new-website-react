@@ -5,7 +5,7 @@ import './Gallery.css';
 const Gallery = () => {
   return (
     <div className='gallery-container'>
-      <h1>Gallery</h1>
+      <div className='gallery-header'>GALLERY</div>
 
       {/* Dents */}
       {/* {<ImageCarousel />} */}
