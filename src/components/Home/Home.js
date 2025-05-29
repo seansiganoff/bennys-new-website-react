@@ -19,9 +19,11 @@ const Home = () => {
         <div className='logo-div'>
             <img className="company-logo" src={require("../../images/bennys-new-company-logo33.png")} alt='Company Logo'/>
             <p>
-                <br />
-            <b>Mobile Dent And Scratch Repair</b>, at your home or office in just a few hours!<br />
+                
+            Mobile Dent And Scratch Repair, at your home or office in just a few hours!<br />
             </p>
+            <br />
+            <br />
         <div className="locations"><b className='theme-color'>SERVING:</b> Plano, Mckinney, Frisco, Allen,  Addison, The Colony, Fairview and Carrollton</div>
 
             <div className="vehicle-icons">
