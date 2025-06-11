@@ -24,7 +24,7 @@ const Home = () => {
             </p>
             <br />
             <br />
-        <div className="locations"><b className='theme-color'>SERVING:</b> Plano, Mckinney, Frisco, Allen,  Addison, The Colony, Fairview and Carrollton</div>
+        <div className="locations"><b className='theme-color'>SERVING:</b> 50 mile radius outside of Dallas.</div>
 
             <div className="vehicle-icons">
               <div className="vehicle-icons-inner-div-bottom" >
