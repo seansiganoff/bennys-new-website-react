@@ -17,10 +17,10 @@ const Home = () => {
             </div>
         </div>
         <div className='logo-div'>
-            <img className="company-logo" src={require("../../images/bennys-new-company-logo33.png")} alt='Company Logo'/>
+            <img className="company-logo" src={require("../../images/new-company-logo1.jpg")} alt='Company Logo'/>
             <p>
                 
-            Mobile Dent And Scratch Repair, at your home or office in just a few hours!<br />
+            Auto Body Repair, at your home or office in just a few hours!<br />
             </p>
             <br />
             <br />
