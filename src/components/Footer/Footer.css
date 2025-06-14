@@ -1,9 +1,7 @@
-
-.footer-container {
+.footer {
     width: 100%;
     height: 100%;
     color: rgb(255, 255, 255);
-    background-color: black;
     background-image: url('../../images/mercedes-background.JPG');
     background-repeat: no-repeat;
     background-size: cover;
@@ -12,35 +10,34 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .footer-overlay {
-    background-color: rgba(0, 0, 0, 0.685);
-    text-align: left;
+    background-color: rgba(0, 0, 0, 0.683);
+    text-align: center;
     width: 100%;
     height: 100%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    padding: 2rem 0;
+    padding: 2rem 10px;
     letter-spacing: 1px;
     line-height: 25px;
-    min-height: 40vh;
+    min-height: 50vh;
 }
 
 .footer-overlay h3 {
     margin: 0 auto;
     padding-bottom: 2rem;
     word-break: keep-all;
-    font-size: 6vh;
+    font-size: xxx-large;
     justify-content: space-evenly;
-    color: rgb(255, 255, 255);
 }
 
 .my-icons {
     margin: 10px 0 0 0;
-    width: 4rem;
+    width: 4.5rem;
+    position: relative;
 }
 
 .desktop-footer a {
@@ -68,26 +65,25 @@
 }
 .desktop-footer li {
     list-style: none;
-    font-size: x-large;
-    line-height: 50px;
 }
 
 
 
 .copyright {
     text-align: center;
-    font-weight: 100;
-    font-size: xx-small;
+    font-weight: 200;
+    font-size: x-small;
     margin: 0px;
     padding-top: 40px;
     padding-bottom: 20px;
-    color: #777272;
+    color: #000000;
 }
 
 .contact-container {
     display: flex;
     align-items: left;
     justify-content: space-evenly;
+    
     display: flex;
 }
 
@@ -96,8 +92,8 @@
 }
 
 .contact-us {
-    margin: 1rem 3rem;
-    line-height: 40px;
+    margin: 1rem 1rem;
+    z-index: 100;
 }
 
 
@@ -108,18 +104,63 @@
 }
 
 
-@media only screen and (max-width: 1000px) {
+
+
+.guarantee-container {
+    width: 60%;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+}
+
+.guarantee-container h1 {
+    margin-top: 100px;
+    color: green;
+}
+
+.guarantee-container p {
+    font-size: large;
+}
+
+.theme-color {
+    color: rgb(11, 181, 211)
+}
+@media only screen and (max-width: 1200px){
+    
     .footer-overlay {
-        display: block;
-        text-align: center;
-    }
-    .contact-us {
-        margin: 3rem 1rem;
+        display: flex;
     }
 }
 
-@media only screen and (max-width: 350px) {
-    .desktop-footer li {
-        font-size: large;
+@media only screen and (max-width: 1000px){
+    
+    .footer-overlay h3 {
+        font-size: xx-large;
     }
 }
+
+@media only screen and (max-width: 850px) {
+    .footer-overlay {
+        display: block;
+        padding: 2rem 0;
+        text-align: center;
+    }
+    .contact-us {
+        margin: 3rem 0;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .mobile-footer {
+     display: flex;
+    }
+    .desktop-footer {
+     display: none;
+    }
+ }
+ 
+ 
+
+
+
+
+

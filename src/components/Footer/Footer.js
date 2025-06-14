@@ -3,32 +3,32 @@ import './Footer.css';
 
 const Footer = () => {
   return (
-    <>
-        <div className="footer-container">
-                <div className="footer-overlay" id="contact-us">
-                    <div className="contact-us">
-                        <h3>CONTACT</h3>
-                        <div className="contact-container">
-                            <div className="desktop-footer">
-                                <ul> Call or text for a free estimate.
-                                    <li>Text: <b><a href="sms:469-969-5119">469-969-5119</a></b></li>
-                                    <li>Call: <b><a href="tel:469-969-5119">469-969-5119</a></b></li>
-                                    
-                            
-                                </ul>
-                            </div>
+    <footer>
+        <div className="footer">
+            <div className="footer-overlay" id="contact-us">
+                <div className="contact-us">
+                    <h3 className='theme-color'>CONTACT US</h3>
+                    <div className="contact-container">
+                        <div className="mobile-footer">
+                            <a href="sms:469-969-5119"><img className="my-icons" src={require("../../images/text-icon.png")} alt='SMS message icon'/></a>
+                            <a href="tel:469-969-5119"><img className="my-icons" src={require("../../images/phone-icon.png")} alt='Phone icon'/></a>
+                            {/* <a href="mailto:mobiledentandscratchrepair@yahoo.com"><img className="my-icons" src={require("../../images/email-icon.webp")} alt='Email icon'/></a> */}
+                        </div>
+                        <div className="desktop-footer">
+                        <p>CALL OR TEXT:  <b>469-969-5119</b></p>
                         </div>
                     </div>
-                    <div className="contact-us">
-                        <h3>HOURS</h3>
-                        <p>Monday - Saturday: 9AM - 9PM. <br />
-                        Sunday: 12PM - 4PM</p>
-                    </div>
                 </div>
+                <div className="contact-us">
+                    <h3 className='theme-color'>HOURS</h3>
+                    <p>Monday - Saturday: 9AM - 8PM.</p>
+                </div>
+            </div>
         </div>
-            
-        
-    </>
+        <div className="copyright">
+            BROTHERS MOBILE DENT AND SCRATCH REPAIR LLC 2025.
+        </div>
+    </footer>
   )
 }
 

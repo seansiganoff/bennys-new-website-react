@@ -23,7 +23,7 @@
 
 .quick-quote-container p {
     padding: 3rem 10px;
-    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.662), rgba(255, 238, 0, 0.329), rgba(255, 255, 255, 0.662));
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.662), rgba(252, 168, 0, 0.667), rgba(255, 255, 255, 0.662));
     font-size: medium;
     text-align: left;
     margin: 0 auto;
@@ -32,6 +32,7 @@
 .quick-quote-container h4 {
     margin-top: 2rem;
     padding: 0 7px 0 7px;
+    text-align: center;
 }
 .guaranteeBtn {
     margin: 10px auto;
@@ -41,8 +42,8 @@
     font-size: small;
     font-weight: 500;
     background-color: rgb(0, 222, 0);
-    width: 70%;
-    box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.253);
+    width: 100%;
+    box-shadow: 0px 0px 20px 5px rgb(138, 138, 138);
 }
 
 
