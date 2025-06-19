@@ -43,31 +43,6 @@
     object-fit: contain;
 }
 
-.reviews-div {
-    margin: 1rem 0 1rem 0;
-    
-}
-
-.reviews-div button {
-    padding: 15px 20px;
-    border-radius: 30px;
-    background-color: rgb(246, 36, 36);
-    font-size: large;
-    color: rgb(255, 255, 255);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    border: none;
-}
-
-.reviews-div button p {
-    font-size: small;
-    font-family: 'Times New Roman', Times, serif;
-    color: white;
-}
-
-.reviews-div button a:link, .reviews-div button a:visited {
-    color: rgb(255, 255, 255);
-    
-}
 
 
 
@@ -127,15 +102,5 @@
     
 }
 
-@media only screen and (max-width: 600px) {
-    .reviews-div button {
-        font-size: medium;
-        padding: 20px 30px;
-    }
-    .reviews-div button p {
-        font-size: xx-small;
-    }
-
-}
 
 

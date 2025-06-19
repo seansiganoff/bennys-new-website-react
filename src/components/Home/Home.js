@@ -2,6 +2,7 @@
 import './Home.css';
 import Services from '../Services/Services';
 import About from '../About/About';
+import ReviewsSection from '../ReviewsSection/ReviewsSection';
 
 const Home = () => {
   return (
@@ -24,7 +25,7 @@ const Home = () => {
             </p>
             <br />
             <br />
-        <div className="locations"><b className='theme-color'>SERVING:</b> 50 mile radius outside of Dallas.</div>
+        <div className="locations"><b className='theme-color'>SERVING:</b> Dallas, Plano, Richardson, Frisco, Mckinney, Prosper, Coppel, Irving, Arlington, Lewisville, Flower Mound, Grapevine, Southlake.</div>
 
             <div className="vehicle-icons">
               <div className="vehicle-icons-inner-div-bottom" >
@@ -43,17 +44,12 @@ const Home = () => {
 
 
 
-            <div className='reviews-div'>
-              <button>
-                <a href='https://g.co/kgs/cWBZQGr'>CHECK OUT OUR GOOGLE REVIEWS</a>
-                <br /><p>CLICK HERE</p>
-              </button>
-            </div>
+            
         </div>
         
         {<About />}
         {<Services />}
-        
+        {<ReviewsSection />}
     </div>
     
   )

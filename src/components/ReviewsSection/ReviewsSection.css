@@ -1,0 +1,94 @@
+
+
+.reviews-section-container {
+    width: 100%;
+    background-color: rgb(242, 242, 242);
+    display: block;
+    padding: 3rem 10px;
+    margin: 0 auto;
+    text-align: center;
+}
+.reviews-section-container a {
+    margin: 0;
+    padding: 0;
+}
+.google-logo {
+    width: 20%;
+}
+
+.five-star-logo {
+    width: 30%;
+}
+
+.reviews-box-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: top;
+
+}
+
+.reviews-box {
+    background-color: rgb(255, 255, 255);
+    width: 30%;
+    text-align: left;
+    border-radius: 15px;
+    padding: 1rem;
+}
+.reviews-section-container h2 {
+    margin-left: 3rem;
+}
+
+
+.reviews-div {
+    text-align: center;
+    
+}
+
+.reviews-div button {
+    padding: 15px 20px;
+    border-radius: 30px;
+    background-color: rgb(246, 36, 36);
+    font-size: large;
+    color: rgb(255, 255, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: none;
+}
+
+.reviews-div button p {
+    font-size: small;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+.reviews-div button a:link, .reviews-div button a:visited {
+    color: rgb(255, 255, 255);
+    
+}
+
+@media only screen and (max-width: 900px) {
+    .reviews-box-container {
+        display: block;
+        width: 100%;
+        
+    }
+    .reviews-section-container {
+        padding-bottom: 0;
+    }
+    .reviews-box {
+        width: 95%;
+        margin: 1rem auto;
+    }
+
+}
+
+
+@media only screen and (max-width: 600px) {
+    .reviews-div button {
+        font-size: medium;
+        padding: 20px 30px;
+    }
+    .reviews-div button p {
+        font-size: xx-small;
+    }
+
+}
