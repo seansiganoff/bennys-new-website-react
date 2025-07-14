@@ -39,6 +39,20 @@ const Gallery = () => {
                 <source className="gallery-video" src={require('../../videos/My Movie 7.mp4')} type="video/mp4" />
               </video>
 
+              <video controls poster={require('../../images/honda screenshot.png')}>
+                <source className="gallery-video" src={require('../../videos/honda.mp4')} type="video/mp4" />
+              </video>
+
+              <video controls poster={require('../../images/bmw 4 series screenshot.png')}>
+                <source className="gallery-video" src={require('../../videos/BMW 4 series.mp4')} type="video/mp4" />
+              </video>
+
+              <video controls poster={require('../../images/volvo screenshot.png')}>
+                <source className="gallery-video" src={require('../../videos/23 volvo.mp4')} type="video/mp4" />
+              </video>
+
+
+
               <video controls poster={require('../../images/pickup-truck-screenshot.png')}>
                 <source className="gallery-video" src={require('../../videos/My Movie 6.mp4')} type="video/mp4" />
               </video>
