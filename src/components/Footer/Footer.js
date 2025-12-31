@@ -26,7 +26,7 @@ const Footer = () => {
             </div>
         </div>
         <div className="copyright">
-            BROTHERS MOBILE DENT AND SCRATCH REPAIR LLC 2025.
+            BROTHERS MOBILE DENT AND SCRATCH REPAIR LLC 2026.
         </div>
     </footer>
   )
