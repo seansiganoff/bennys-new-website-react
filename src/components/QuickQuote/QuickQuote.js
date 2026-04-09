@@ -7,7 +7,7 @@ const QuickQuote = () => {
         <div className='quick-quote-container'>
             <div className='quick-quote-banner'>Need An Estimate?</div>
             
-            <h4>The fastest way to get a estimate, is to send us your zip code to see if you are in our service area, the send us some pictures of the damage, via text messaging.</h4>
+            <h4>The fastest way to get an estimate, is to send us your zip code to see if you are in our service area, then send us some pictures of the damage, via text messaging.</h4>
               <br />
               <br />
               <p>
