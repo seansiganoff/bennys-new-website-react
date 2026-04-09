@@ -25,7 +25,7 @@ const Home = () => {
             </p>
             <br />
             <br />
-        <div className="locations"><b className='theme-color'>SERVING:</b> Dallas, Plano, Richardson, Frisco, Mckinney, Prosper, Coppel, Irving, Arlington, Lewisville, Flower Mound, Grapevine, Southlake.</div>
+        {/* <div className="locations"><b className='theme-color'>SERVING:</b> Dallas, Plano, Richardson, Frisco, Mckinney, Prosper, Coppel, Irving, Arlington, Lewisville, Flower Mound, Grapevine, Southlake.</div> */}
 
             <div className="vehicle-icons">
               <div className="vehicle-icons-inner-div-bottom" >
