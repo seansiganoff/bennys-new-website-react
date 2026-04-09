@@ -82,10 +82,7 @@
 }
 
 @media only screen and (max-width: 1000px) {
-    .logo-div  {
-        padding-top: 1rem;
-        
-    }
+    
     .logo-div p, .locations p {
         font-size: medium;
     }
