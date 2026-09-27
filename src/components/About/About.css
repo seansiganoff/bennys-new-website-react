@@ -9,6 +9,8 @@
     justify-content: center;
     padding: 3rem 0;
     background-color: rgb(243, 243, 243);
+    color: black;
+
 }
 
 .about-banner {
@@ -26,7 +28,7 @@
     transition: all 0.2s ease-in;
     border-top: 2px solid rgb(236, 236, 236);
     width: 100%;
-    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.555), rgba(252, 168, 0, 0.813), rgba(255, 255, 255, 0.555));
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.555), rgb(255, 136, 0), rgba(255, 255, 255, 0.555));
     font-size: 7VW;
     font-family: Georgia, 'Times New Roman', Times, serif;
     letter-spacing: 10vw;
@@ -66,6 +68,13 @@
     font-size: large;
     box-shadow: 0px 0px 45px 2px rgba(0, 0, 0, 0.253);
 }
+
+
+
+
+
+
+
 @media only screen and (max-width: 1000px) {
     .about-text-div, .about-banner {
         width: 94%;
@@ -76,13 +85,16 @@
     .about-banner button {
         font-size: xx-large;
     }
-   
+    
 }
 
 
 @media only screen and (max-width: 700px) {
     .about-banner button {
         padding: 1rem 0 3px 8px;
+    }
+    .about-text-div p {
+        font-size: small;
     }
 }
 

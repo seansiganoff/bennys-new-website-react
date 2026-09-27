@@ -6,6 +6,7 @@
     display: block;
     padding: 3rem 10px;
     margin: 0 auto;
+    color: black;
     text-align: center;
 }
 .reviews-section-container a {
@@ -14,6 +15,15 @@
 }
 .google-logo {
     width: 20%;
+}
+
+.click-here-btn {
+    background-color: rgb(22, 215, 5);
+    padding: 1rem;
+    width: 30%;
+    margin: 0 auto;
+    border-radius: 30px;
+    box-shadow: 0px 0px 45px 2px rgba(0, 0, 0, 0.427);
 }
 
 .five-star-logo {
@@ -33,6 +43,7 @@
     text-align: left;
     border-radius: 15px;
     padding: 1rem;
+    box-shadow: 0px 0px 45px 2px rgba(0, 0, 0, 0.308);
 }
 .reviews-section-container h2 {
     margin-left: 3rem;
@@ -65,12 +76,29 @@
     
 }
 
+
+
+
+@media only screen and (max-width: 1200px) {
+    .click-here-btn {
+        width: 90%;
+        padding: 0.5rem;
+    }
+    .google-logo {
+        width: 400px;
+    }
+}
+
+
+
+
 @media only screen and (max-width: 900px) {
     .reviews-box-container {
         display: block;
         width: 100%;
         
     }
+    
     .reviews-section-container {
         padding-bottom: 0;
     }
@@ -90,5 +118,7 @@
     .reviews-div button p {
         font-size: xx-small;
     }
-
+    .google-logo {
+        width: 50%;
+    }
 }

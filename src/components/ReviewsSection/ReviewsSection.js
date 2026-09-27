@@ -4,7 +4,7 @@ import '../ReviewsSection/ReviewsSection.css'
 const ReviewsSection = () => {
   return (
     <div className='reviews-section-container'>
-        <a href='https://g.co/kgs/cWBZQGr'><img className='google-logo' src={require('../../images/google-reviews-1-.png')} alt='5 Star Google Rating'/><br /><p style={{fontSize: 'small'}}>Click here to see more reviews</p></a>
+        <a href='https://g.co/kgs/cWBZQGr'><img className='google-logo' src={require('../../images/google-reviews-1-.png')} alt='5 Star Google Rating'/><br /><p className='click-here-btn'>Click here to see more reviews</p></a>
             
         <br />
         <br />
