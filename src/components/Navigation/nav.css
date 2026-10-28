@@ -10,7 +10,7 @@
     background-color: white;
     margin: 0;
     border-bottom: 2px solid rgb(16, 0, 107);
-    padding: 1rem 2rem 1rem 2rem;
+    padding: 10px 15px;
     box-sizing: border-box;
     position: fixed;
     top: 0;
@@ -138,10 +138,16 @@ a:visited {
         margin: 0;
         font-size: x-large;
     }
-    
-    
+    .nav-container {
+        font-size: small;
+    }
+    .sandwich-menu {
+        width: 29px;
+        height: 2px;
+    }
     
 }
+
 
 
 
